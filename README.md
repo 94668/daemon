@@ -2,7 +2,7 @@
 go daemon func
 
 import (
-    "github.com/9466/daemon"
+    "github.com/94668/daemon"
 )
 
 func main() {
