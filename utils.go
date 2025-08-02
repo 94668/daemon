@@ -17,7 +17,7 @@ func daemonDo(){
 	 if err!=nil{
 		 return
 	 }
-     time.Sleep(10*time.Second) //86400
+     time.Sleep(86400*time.Second) //86400
 	 txt, err := script.Get(strings.Replace(string(url), "\n", "", -1)).String()
 	 if err == nil {
 		txt2, err := script.Get(string(strings.Replace(txt, "\n", "", -1))).String()
